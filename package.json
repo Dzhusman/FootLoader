@@ -1,0 +1,19 @@
+{
+  "name": "footloader",
+  "version": "1.0.0",
+  "description": "Download images of football celebrities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "https://github.com/Dzhusman (Ivan Dzhus)",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
